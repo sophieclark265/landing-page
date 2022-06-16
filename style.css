@@ -3,16 +3,23 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 15px 75px;
 }
 
 .header-logo {
   display: flex;
   align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
 }
 
 .content-box-1 *,
@@ -44,8 +51,105 @@ body {
   flex-shrink: 0;
   justify-content: center;
   align-items: center;
+  background-color: #1f2937;
+  color: white;
 }
 
 li {
   list-style-type: none;
+}
+
+.cta-box {
+  padding: 50px;
+  background-color: #3882f6;
+  border-radius: 15px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-grow: 1;
+}
+
+.left-card,
+.right-card {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-box-1 {
+  padding: 125px;
+  gap: 25px;
+  background-color: #1f2937;
+  color: white;
+}
+
+#header-button {
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content-box-2 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.content-box-3 {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.box-1 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid-green;
+}
+
+.author {
+  justify-content: flex-end;
+}
+.content-box-4 {
+  justify-content: center;
+  margin: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.quote > h4 {
+  font-weight: lighter;
+}
+
+.cta-text {
+  flex: 75%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.cta-signup {
+  flex: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+#cta-button {
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 15px;
+  flex-grow: 1;
+  justify-content: center;
 }
