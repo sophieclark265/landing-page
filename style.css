@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-size: 68px;
+  font-size: 48px;
   font-weight: bolder;
   margin-bottom: 0px;
 }
@@ -85,10 +85,11 @@ li {
 }
 
 .content-box-1 {
-  padding: 175px;
+  padding: 50px 175px 75px 175px;
   gap: 25px;
   background-color: #1f2937;
   color: white;
+  flex: 1 1 0;
 }
 
 #header-button {
