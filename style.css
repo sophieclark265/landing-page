@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -11,7 +12,12 @@ body {
   justify-content: space-between;
   background-color: #1f2937;
   color: #e5e7eb;
-  padding: 15px 75px;
+  padding: 5px 175px;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: bolder;
 }
 
 .header-logo {
@@ -78,7 +84,7 @@ li {
 }
 
 .content-box-1 {
-  padding: 125px;
+  padding: 175px;
   gap: 25px;
   background-color: #1f2937;
   color: white;
@@ -92,12 +98,14 @@ li {
   border-radius: 5px;
   justify-content: flex-start;
   align-items: center;
+  padding: 5px 30px;
 }
 
 .content-box-2 {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  padding: 25px 50px;
 }
 
 .content-box-3 {
@@ -107,12 +115,7 @@ li {
   font-weight: lighter;
   flex-wrap: wrap;
   flex-direction: column;
-}
-
-.box-1 {
-  width: 30px;
-  height: 30px;
-  border: 1px solid-green;
+  padding: 0px 150px;
 }
 
 .author {
@@ -149,7 +152,32 @@ img {
   font-weight: bold;
   border-radius: 5px;
   border: 2px solid white;
-  padding: 15px;
-  flex-grow: 1;
+  padding: 5px 30px;
+  /* flex-grow: 1; */
   justify-content: center;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 5px;
+}
+
+.text {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#text-holder,
+#box-holder {
+  gap: 30px;
+  padding-top: 15px;
+}
+
+#author {
+  margin: 0px 5px;
+  padding-bottom: 45px;
 }
